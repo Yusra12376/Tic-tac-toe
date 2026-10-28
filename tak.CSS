@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;   
+}
+body{
+    background-color: #FFE185;
+     /* #92003A; */
+}
+.heading{
+    font-size: 3rem;
+    color: #92003A;
+    text-align: center;
+    position:relative;
+    top:20px;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center; 
+     position:relative;
+    top:60px;
+}
+.outerboxe{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+   /* position:relative;
+    top:60px;
+     */
+}
+ .box{
+    height:100px;
+    width:100px;
+    margin: 5px;
+    border-radius: 20%;
+    background-color: #92003A;
+    font-size: 3rem;
+    color:#FFE185 ;
+     }
+     #win{
+    font-size: 3rem;
+    color: #92003A;
+    text-align: center;
+    position:relative; 
+     top:200px;
+     }
+     #newgamebtn{
+       text-align: center;
+       position:absolute;
+       top:260px;
+       left:590px;  
+       font-size: 1.4rem;
+       background-color: black;
+       color:white; 
+     }
+     .hi{
+        display:none; /*remove the element tag without creating a space*/
+     }
+     .top{
+        height: 600px;
+        position:relative;
+        text-align: center;
+     }
+     .rstbtn{
+       height: 30px;
+       width: 240px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-content: center;  
+       position: relative;
+       left:525px;
+       top:34px;
+        /* margin: 10px;  */
+
+                        
+}
+   .reset{
+    height: 30px;
+       width: 240px;
+       margin: 5px;
+ text-align: center; 
+ font-size: 1.2rem;  
+background-color: black;
+ color:white; 
+  
+   }
